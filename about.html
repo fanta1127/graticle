@@ -42,15 +42,25 @@
     <section class="section container">
         <div class="card organizer-profile">
             <div class="profile-img-container">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="profile-icon-svg">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                </svg>
+                <picture>
+                    <source media="(max-width: 1023px)" srcset="imgs/aboutus_mobile.jpg">
+                    <img src="imgs/aboutus_pc.jpg" alt="Graticle運営メンバーの2ショット" class="profile-img">
+                </picture>
             </div>
-            <h2>Graticle (グラティクル)</h2>
-            <p style="font-weight: bold; color: var(--secondary-color);">神戸大学起業部</p>
-            <p>代表：小部 菜都希 (Natsuki Kobe)</p>
+            <h2>Graticle 運営チーム</h2>
+            <p class="organizer-subtitle">神戸大学起業部</p>
+            <div class="team-members">
+                <div class="team-member">
+                    <div class="member-role">代表</div>
+                    <div class="member-name">小部 菜都希</div>
+                    <div class="member-meta">神戸大学 経営学部 1年</div>
+                </div>
+                <div class="team-member">
+                    <div class="member-role">副代表</div>
+                    <div class="member-name">川村 耕毅</div>
+                    <div class="member-meta">神戸大学 経営学部 2年</div>
+                </div>
+            </div>
         </div>
 
         <div class="card">
