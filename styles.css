@@ -207,9 +207,6 @@ p {
         background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('imgs/goukon2_mobile.png');
         background-size: cover;
         background-position: center;
-        height: auto;
-        min-height: 100vh;
-        min-height: 100dvh;
     }
 }
 
