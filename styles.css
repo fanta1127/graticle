@@ -522,4 +522,13 @@ footer {
         height: auto;
         min-height: 80vh;
     }
+
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
+    .pricing-box,
+    .vision-card {
+        padding: var(--spacing-lg);
+    }
 }
