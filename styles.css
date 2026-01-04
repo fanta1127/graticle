@@ -126,6 +126,23 @@ p {
     box-shadow: 0 6px 20px var(--accent-glow);
 }
 
+.btn-line {
+    background-color: #06C755;
+    /* LINE Brand Color */
+    box-shadow: 0 4px 15px rgba(6, 199, 85, 0.3);
+}
+
+.btn-line:hover {
+    box-shadow: 0 6px 20px rgba(6, 199, 85, 0.4);
+}
+
+.btn-lg {
+    padding: 1.2rem 3rem;
+    font-size: 1.3rem;
+    min-width: 340px;
+    text-align: center;
+}
+
 .card {
     background: var(--card-bg);
     backdrop-filter: blur(10px);
